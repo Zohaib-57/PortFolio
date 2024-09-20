@@ -275,3 +275,34 @@ span{
     margin:7px 0;
     font-family:"Josefin Sans", sans-serif;
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    box-shadow: 0 2px 4px 0 rgba(153, 248, 223, 0.9), 0 4px 8px rgba(49, 49, 49, 0.9);
+}
+#footer-info h1{
+text-align: center;
+font-family: "Eczar", sans-serif;
+}
+#footer-info p{
+text-align: center;
+font-family:"Josefin Sans", sans-serif;
+}
+#footer-info div{
+    margin:30px;
+}
+#footer-info div a{
+    margin: 7px;
+}
+#footer-info div a img{
+    filter: grayscale(1);
+    transition: 0.3s ease filter;
+}
+#footer-info div a img:hover{
+    filter: grayscale(0);
+}
+.copy{
+    margin-top: 30px;
+}
