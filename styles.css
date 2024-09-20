@@ -1,26 +1,40 @@
-/* //#20283C
-//32 40 60 */
+/* #20283C
+rgb(32 40 60)
+#E9EDF4 
+#028355 */
+/* FONTS */
+/* font-family: "Eczar", serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal; */
 
-@import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
+  /* font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    /* font-family: "Unlock", serif;
-    font-weight: 400;
-    font-style: normal;    */
+}
+body{
+    background-color: #dde4f1e2;
 }
 #header-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #20283c;
+    background-color: #000E00;
 }
 #logo{
-    margin: 30px;
-    font-size: 40px;
+    margin: 20px;
+    color: #FFFFFF;
+    font-family: "Eczar", serif;
+    font-size: 30px;
     font-weight: 800;
-    color: white;
-    font-family: "Unlock", serif;
 }
 nav{
     margin-right: 40px;
@@ -31,4 +45,55 @@ nav a{
     color: white;
     font-size: 18px;
     font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+}
+nav a:hover{
+    text-decoration: 3px underline #028355;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border:2px solid  #000E00;
+    padding: 10px; 
+}
+
+.intro ,.dp{
+    margin: 50px;
+}
+.intro{
+    width: 400px;
+    padding: 30px;
+    margin-left: 20px;
+    box-shadow: 0 2px 4px 0 #028355;
+}
+.intro h2{
+    margin: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+}
+.dp img {
+    width: 350px ;
+    height: 350px;
+    border-radius: 50%;
+}
+span{
+    color: #028355;
+}
+.portfolio{
+    width: 120px;
+    margin: 30px;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #028355;
+    background-color:#FFFFFF;
+    color: #028355;
+    border-radius: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.portfolio:hover{
+    background-color: #028355 ;
+    color: #FFFFFF;
+    cursor: pointer;
 }
