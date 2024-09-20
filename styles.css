@@ -36,6 +36,11 @@ body{
     font-size: 30px;
     font-weight: 800;
 }
+.hamburger {
+    display: none;
+    width: 30px;
+    cursor: pointer;
+}
 nav{
     margin-right: 40px;
 }
