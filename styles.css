@@ -54,7 +54,6 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border:2px solid  #000E00;
     padding: 10px; 
 }
 
@@ -97,3 +96,47 @@ span{
     color: #FFFFFF;
     cursor: pointer;
 }
+#service-head{
+    text-align: center;
+    margin: 10px;
+    font-size: 70px;
+    font-weight: 300;
+    font-family: "Eczar", sans-serif;;
+}
+.services-intro{
+    width: 600px;
+    display: flex;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-family:  "Josefin Sans", sans-serif;
+}
+#services-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.card{
+    border-radius: 15px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 2px 4px 0 #028355, 0 3px 2px 0 rgba(2, 131, 85, 0.5);
+}
+.card img{
+    align-items: center;
+    width: 96px;
+    height: 96px;
+    margin-left: 30px;
+}
+.card h2{
+    text-align: center;
+    margin: 20px;
+}
+.card p{
+    text-align: center;
+    margin: 10px;
+}
+
