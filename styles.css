@@ -148,6 +148,7 @@ span{
 }
 #project-container{
     margin:  40px 90px;
+    box-shadow: 0 2px 4px 0 #028355, 0 3px 2px 0 rgba(2, 131, 85, 0.5);
 }
 .project-card{
     display: flex;
@@ -199,21 +200,20 @@ span{
     border-radius: 10px;
     position: relative;
     left: 20%;
-   
 }
 .my-intro{
     width: 450px;
 }
 .my-intro h1{
     text-align: left;
-    margin:7px 0;
-    font-size: 30px;
-    font-weight:800 ;
-    font-family: "Eczar", sans-serif
+    font-size: 60px;
+    font-weight: 100;
+    font-family: "Eczar", sans-serif;
 }
 
 .my-intro h3{
     text-align: left;
+    font-size: 25px;
     margin:7px 0;
     font-family:"Josefin Sans", sans-serif;
 }
@@ -227,6 +227,7 @@ span{
     padding: 10px;
     margin: 30px 0;
     color: #028355;
+    border-radius: 10px;
     background-color: #FFFFFF;
     border: 2px solid #028355;
 }
@@ -234,4 +235,43 @@ span{
     color: #FFFFFF;
     background-color: #028355;
     cursor: pointer;
+}
+#contact-head{
+    text-align: center;
+    margin: 10px;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: "Eczar", sans-serif;
+}
+#contact-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 30px;
+}
+.phone-card,.email-card,.address-card{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    padding:10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;box-shadow: 0 2px 4px 0 #16433d
+}
+.phone-card h2,.email-card h2,.address-card h2{
+    text-align: left;
+    font-size: 25px;
+    margin:7px 0;
+    font-family:"Josefin Sans", sans-serif;
+}
+.phone-card p a ,
+.email-card p a ,
+.address-card p a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    text-align: left;
+    margin:7px 0;
+    font-family:"Josefin Sans", sans-serif;
 }
