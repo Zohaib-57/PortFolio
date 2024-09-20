@@ -27,7 +27,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #000E00;
+    background-color: #122b12e2;
 }
 #logo{
     margin: 20px;
@@ -68,7 +68,7 @@ nav a:hover{
 .intro{
     width: 400px;
     padding: 30px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     box-shadow: 0 2px 4px 0 #028355;
 }
 .intro h2{
@@ -127,6 +127,7 @@ span{
 .card{
     border-radius: 15px;
     width: 250px;
+    margin: 10px;
     height: 300px;
     box-shadow: 0 2px 4px 0 #028355, 0 3px 2px 0 rgba(2, 131, 85, 0.5);
 }
@@ -168,7 +169,7 @@ span{
     text-align: left;
     margin:7px 0;
     font-size: 30px;
-    font-weight:800 ;
+    font-weight:  800 ;
     font-family: "Eczar", sans-serif;
 }
 .project-intro h3{
@@ -182,7 +183,8 @@ span{
     font-family:"Josefin Sans", sans-serif;;
 }
 .project-img img{
-    width: 540px;
+    padding: 30px;
+    width: 510px;
     height: 300px;
     margin: 0;
 }
@@ -206,9 +208,9 @@ span{
     position: relative;
     left: 20%;
 }
-.my-intro{
+/* .my-intro{
     width: 450px;
-}
+} */
 .my-intro h1{
     text-align: left;
     font-size: 60px;
@@ -253,13 +255,14 @@ span{
     align-items: center;
     justify-content: space-evenly;
     padding: 10px;
-    margin: 30px;
+    /* margin: 30px; */
 }
 .phone-card,.email-card,.address-card{
     width: 300px;
     height: 100px;
     border-radius: 10px;
     padding:10px 20px;
+    margin: 7px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;box-shadow: 0 2px 4px 0 #16433d
@@ -311,3 +314,64 @@ font-family:"Josefin Sans", sans-serif;
 .copy{
     margin-top: 30px;
 }
+
+/* responsivness for large */
+@media (max-width:910px) {
+    #logo{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: right;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+    #services-card{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        margin: 8px;
+    }
+    .card{
+        width: 400px;
+    }
+    .card img{
+        display: flex;
+        margin: 0 auto;
+    }
+    .project-img img{
+        width:40vw; 
+    }
+    .my-image{
+        width: 200px;
+    }
+    .my-image img{
+        width: 230px;
+        height: 330px;
+        border-radius: 10px;
+        position: relative;
+        left: 20%;
+    }
+    .my-intro h1{
+        font-size:30px;
+    }
+    .my-intro h3{
+        font-size: 20px;
+    }
+    .phone-card,.email-card,.address-card{
+        margin: 0 20px;
+    }
+}
+
