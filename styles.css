@@ -99,8 +99,8 @@ span{
 #service-head{
     text-align: center;
     margin: 10px;
-    font-size: 70px;
-    font-weight: 300;
+    font-size: 60px;
+    font-weight: 100;
     font-family: "Eczar", sans-serif;
 }
 .services-intro{
@@ -108,7 +108,7 @@ span{
     display: flex;
     margin: 0 auto;
 }
-p{
+.services-p{
     text-align: center;
     font-size: 15px;
     font-family:  "Josefin Sans", sans-serif;
@@ -142,8 +142,8 @@ p{
 .project-head{
     text-align: center;
     margin: 50px;
-    font-size: 70px;
-    font-weight: 300;
+    font-size: 60px;
+    font-weight: 100;
     font-family: "Eczar", sans-serif;
 }
 #project-container{
@@ -179,4 +179,59 @@ p{
     width: 540px;
     height: 300px;
     margin: 0;
+}
+#about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 120px;
+    margin: 130px;
+}
+.my-image{
+    width: 270px;
+    border: 10px  solid #028355;
+    padding: 7px;
+    border-radius: 10px;
+}
+.my-image img{
+    width: 280px;
+    height: 380px;
+    border-radius: 10px;
+    position: relative;
+    left: 20%;
+   
+}
+.my-intro{
+    width: 450px;
+}
+.my-intro h1{
+    text-align: left;
+    margin:7px 0;
+    font-size: 30px;
+    font-weight:800 ;
+    font-family: "Eczar", sans-serif
+}
+
+.my-intro h3{
+    text-align: left;
+    margin:7px 0;
+    font-family:"Josefin Sans", sans-serif;
+}
+.my-intro p{
+    text-align: left;
+    margin:7px 0;
+    font-family:"Josefin Sans", sans-serif;
+}
+.my-intro button{
+    width: 170px ;
+    padding: 10px;
+    margin: 30px 0;
+    color: #028355;
+    background-color: #FFFFFF;
+    border: 2px solid #028355;
+}
+.my-intro button:hover{
+    color: #FFFFFF;
+    background-color: #028355;
+    cursor: pointer;
 }
