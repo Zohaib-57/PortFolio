@@ -101,7 +101,7 @@ span{
     margin: 10px;
     font-size: 70px;
     font-weight: 300;
-    font-family: "Eczar", sans-serif;;
+    font-family: "Eczar", sans-serif;
 }
 .services-intro{
     width: 600px;
@@ -139,4 +139,44 @@ p{
     text-align: center;
     margin: 10px;
 }
-
+.project-head{
+    text-align: center;
+    margin: 50px;
+    font-size: 70px;
+    font-weight: 300;
+    font-family: "Eczar", sans-serif;
+}
+#project-container{
+    margin:  40px 90px;
+}
+.project-card{
+    display: flex;
+    flex: row;
+}
+.project-intro{
+    width: 500px;
+    margin:80px 20px;
+    text-align: center;
+}
+.project-intro h1{
+    text-align: left;
+    margin:7px 0;
+    font-size: 30px;
+    font-weight:800 ;
+    font-family: "Eczar", sans-serif;
+}
+.project-intro h3{
+    text-align: left;
+    margin:7px 0;
+    font-family:"Josefin Sans", sans-serif;
+}
+.project-intro p{
+    text-align: left;
+    margin: 5px 0;
+    font-family:"Josefin Sans", sans-serif;;
+}
+.project-img img{
+    width: 540px;
+    height: 300px;
+    margin: 0;
+}
