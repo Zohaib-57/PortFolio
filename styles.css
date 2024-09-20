@@ -375,3 +375,89 @@ font-family:"Josefin Sans", sans-serif;
     }
 }
 
+/* responsiveness for small devices */
+@media (max-width:400px) {
+    #header-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: right;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro{
+        width: 300px;
+        margin: 10px;
+    }
+    .dp img{
+        width: 250px;
+        height: 250px;
+    }
+    #service-head{
+        font-size: 30px;
+    }
+    .services-intro{
+        width: 350px;
+        padding: 10px;
+    }
+    .card{
+        width:250px;
+    }
+    .project-head{
+        font-size: 30px;
+    }
+    #project-container {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .project-intro {
+        margin: 20px 5px;
+    }
+
+    .project-intro h1 {
+        font-size: 20px;
+    }
+
+    .project-img img {
+        padding: 10px;
+        width: 85%;
+        height: 80%;
+        margin-top: 30px;
+    }
+    #about-me {
+        display: flex;
+        flex-direction: column;
+    }
+    .my-intro h1{
+        font-family: 30px;
+    }
+    #contact-head{
+        font-size:30px;
+    }
+    #contact-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .phone-card,.email-card,.address-card{
+        margin: 20px;
+    }
+
+}
