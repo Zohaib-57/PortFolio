@@ -36,6 +36,20 @@ body{
     font-size: 30px;
     font-weight: 800;
 }
+#name,#work{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0; /* Initially hidden */
+    animation: blink-cursor 0.75s step-end infinite;
+}
+@keyframes blink-cursor {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgb(33, 167, 104);
+    }
+}
 .hamburger {
     display: none;
     width: 30px;
@@ -386,9 +400,9 @@ font-family:"Josefin Sans", sans-serif;
         flex-direction: column;
         position: absolute;
         top: 60px;
-        right: 0;
-        background-color: #333;
-        width: 100%;
+        border-radius:15px;
+        background-color: #028355;
+        width: 40%;
         text-align: right;
     }
     .hamburger {
@@ -397,10 +411,18 @@ font-family:"Josefin Sans", sans-serif;
 
     .nav-links.active {
         display: flex;
+       
+    }
+    .nav-links a{
+        margin: 20px;
     }
     #home{
         display: flex;
         flex-direction: column;
+    }
+    .intro h2{
+        font-size: 25px;
+        margin: 15px 0;
     }
     .intro{
         width: 300px;
@@ -445,11 +467,25 @@ font-family:"Josefin Sans", sans-serif;
     #about-me {
         display: flex;
         flex-direction: column;
+        margin: 10px;
+    }
+    .my-image{
+        margin-top: 50px;
     }
     .my-intro h1{
         font-family: 30px;
+        text-align: center;
+        gap: 10px;
+    }
+    .my-intro h3,p{
+    text-align: center;
+    }
+    .my-intro button{
+        display: flex;
+        margin: 20px auto;
     }
     #contact-head{
+        margin-top: 50px;
         font-size:30px;
     }
     #contact-cards{
