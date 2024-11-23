@@ -243,6 +243,9 @@ span{
     margin:7px 0;
     font-family:"Josefin Sans", sans-serif;
 }
+.my-intro a {
+text-decoration: none;
+}
 .my-intro button{
     width: 170px ;
     padding: 10px;
