@@ -159,6 +159,20 @@ span{
     text-align: center;
     margin: 7px;
 }
+.preview-btn{
+    padding: 12px;
+    width: 120px;
+    margin: 7px;
+    background-color: #28aa7d;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+ a .preview-btn:hover{
+    background-color: #1c7254;
+}
 .project-head{
     text-align: center;
     margin: 50px;
